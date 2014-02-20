@@ -1,0 +1,90 @@
+
+
+.stick{width: 200px; height: 18px; background: #808080; color: tiles;margin: 25px 0px;}
+
+.big-stick{width: 200px; height: 10px; background: #808080; color: tiles;margin: 31px 0px;}
+
+.top{border: 10px double #FFDEAD;width: 200px;
+
+box-shadow: 8px 15px 56px -21px threedshadow inset;
+
+}
+.chair-bg {}
+.bottom{border: 10px solid #d2b48c;width: 150px; transform:rotateX(-55deg) rotateY(-202deg) rotateZ(118deg) ;-webkit-transform:rotateX(-55deg) rotateY(-202deg) rotateZ(118deg) ; height: 246px; margin-left: 60px;margin-top: -81px;}
+
+.bottom .chair-bg .stick{width: 150px; height: 7px; background: ; color: tiles;margin: 10px 0px;}
+
+.bottom .chair-bg .big-stick{width: 150px; height: 10px; background: ; color: tiles;margin: 14px 0px;   box-shadow: 1px 0 3px 5px #D2B48C;}
+
+.leg {background: #d3d3d3; box-shadow: 1px 2px 2px 2px #D2B48C;}
+
+.leg-one {height: 10px; width: 350px;transform: rotateZ(-26deg);-webkit-transform: rotateZ(-26deg);margin-top: -87px; margin-left: -22px;position: absolute;}
+
+.leg-two {opacity: .4;height: 10px; width: 350px;position: absolute;transform: rotateZ(-26deg);-webkit-transform: rotateZ(-26deg);margin-top: -87px; margin-left: -22px;}
+
+.leg-three {height: 10px; width: 250px;position: absolute;transform: rotateZ(-26deg);-webkit-transform: rotateZ(-26deg);margin-top: -314px; margin-left: 143px;}
+
+.leg-four {height: 10px; width: 250px;position: absolute;transform: rotateZ(-26deg);-webkit-transform: rotateZ(-26deg);margin-top: -64px; margin-left: 144px;}
+
+
+
+
+
+/*animation*/
+.chair {
+  width: 300px;
+  float: left;
+  animation-duration: 3s;
+  animation-name: slidein;
+   -webkit-animation-duration: 3s;
+  -webkit-animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.man {float: right; width: 300px;}
+.face {width: 100px; height: 150px; border-radius: 50%;background: #5DE9E3;}
+.head {width: 100%; height: 20px;background: #000;border-radius: 50%;}
+.forehead {    background: none repeat scroll 0 0 #5DE9E3;
+    border-radius: 50%;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: 26px;
+    position: absolute;
+    width: 115px;}
+.eyebrow{position: absolute;margin-top: 35px; width: 100px; }
+.eye{position: absolute;margin-top: 40px; width: 100px; }
+.eyebrow1 {margin-left: 2px;width: 35px; height: 3px;background:#808080; float: left;border-radius: 60%;}
+.eyebrow2 {margin-right: 2px;width: 35px; height: 3px;background:#808080; float: right;border-radius: 60%;}
+.eye1 {margin-left: 5px;width: 30px; height: 10px;background:#fff; float: left;border-radius: 50%;}
+.eye2 {margin-right: 5px;width: 30px; height: 10px;background:#fff; float: right;border-radius: 50%;}
+.mouth {    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 81px;
+    position: absolute;
+    width: 60px;}
